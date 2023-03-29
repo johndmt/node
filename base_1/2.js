@@ -26,8 +26,13 @@ person.greet();
 
 // console.log(toArray(2, 5, 34, "sdf"));
 
-const printName = ({ name }) => {
-  console.log(name);
-};
+// const printName = ({ name }) => {
+//   console.log(name);
+// };
 
-printName(person);
+const { name, age } = person;
+
+// printName(person);
+
+console.log(name, age,);
+
